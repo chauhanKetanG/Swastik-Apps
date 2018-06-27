@@ -1,0 +1,27 @@
+body{
+background-color: #ffffff;
+	color:#000000;
+}
+aside {
+background-color: #dedede;
+}
+footer {
+background-color: #333333;
+}
+.app{
+background-color: #dedede;
+}
+.text{
+	color:#000000;
+}
+.feature{
+	background-color: #f5f5f5;
+	color:#000000;
+}
+.feature:hover{
+	background-color: #cccccc;
+	color:#000000;
+}
+#contact_developer a,#contact_links a{
+	color:#000000;
+}

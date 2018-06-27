@@ -1,0 +1,417 @@
+body {
+width: 100%;
+margin: 0px;
+padding: 0px;
+}
+#wrapper {
+width: 100%;
+}
+*{
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+h1,h2,h3,h4,h5,h6,.sitename,.sitetagline,.link_heading{
+font-family: Verdana, Geneva, sans-serif;
+font-weight: 500;
+}
+header {
+margin-right: 1%;
+margin-left: 1%;
+margin-top: 15px;
+width: 96%;
+}
+#mainheader{
+width: 98%;
+margin-bottom: 30px;
+}
+#logo{
+	vertical-align: middle;
+float: left;
+width: 10%;
+max-width: 110px;
+}
+#sitename{
+float: right;
+width: 88%;
+}
+#logo img{
+	vertical-align: middle;
+width: 100%;
+height: 100%;
+max-width: 100px;
+max-height: 100px;
+min-width: 50px;
+min-height: 50px;
+}
+#contact_site #logo img{
+width: 80%;
+height: 80%;
+max-width: 80px;
+max-height: 80px;
+min-width: 40px;
+min-height: 40px;
+}
+#dev_image{
+float: left;
+width: 15%;
+max-width: 160px;
+}
+#contact_dev{
+float: right;
+width: 85%;
+}
+#contact_dev_links{
+float: left;
+width: 100%;
+}
+#dev_image img{
+width: 80%;
+height: 100%;
+max-width: 120px;
+max-height: 150px;
+min-width: 60px;
+min-height: 75px;
+}
+.sitename{
+font-size: 2.5em;
+margin: 1px;
+color: #00cd45;
+}
+.sitetagline{
+font-size: 1.2em;
+margin: 1px;
+color: #ff5722;
+}
+
+nav{
+width: 96%;
+margin-left: 1%;
+margin-right: 1%;
+}
+nav ul li {
+display: inline-block;
+font-size: 1.2em;
+margin: 5px;
+color: #dedede;
+text-align: center;
+}
+aside {
+margin-right: 1%;
+padding-left: 1%;
+margin-bottom: 10px;
+float: right;
+width: 22%;
+}
+#content {
+margin-right: 1%;
+margin-left: 2%;
+float: left;
+width: 70%;
+}
+footer {
+padding: 1%;
+margin-bottom: -20px;
+clear: both;
+color: #ffffff;
+width: 98%;
+}
+a{
+text-decoration: none;
+color:#ff5722;
+}
+nav a{
+padding :4px 6px;
+border :1px solid #777;
+background :rgb(204, 102, 204);
+color :#fff;
+border-radius :5px;
+-moz-box-shadow :2px 2px 2px #888;
+-webkit-box-shadow:2px 2px 2px #888;
+box-shadow :2px 2px 2px #888;
+}
+.sidebar_app{
+float: left;
+margin: 1%;
+padding: 1%;
+padding-top: 1%;
+width: 44%;
+height: 44%;
+text-align: center;
+font-size: 1.2em;
+}
+.sidebar_app:hover{
+transform: scale(1.05);
+}
+.sidebar_app img,.app img{
+width: 100%;
+height: 100%;
+max-width: 100px;
+max-height: 100px;
+text-align: center;
+
+border-radius :5px;
+}
+.app{
+display:inline-block;
+vertical-align: text-top;
+margin: 1%;
+padding: 1%;
+padding-top: 1%;
+min-width: 120px;
+width: 20%;
+text-align: center;
+font-size: 1.2em;
+color:#ff5722;
+border-radius :10px;
+moz-box-shadow :0px 2px 2px #888;
+-webkit-box-shadow:0px 2px 2px #888;
+box-shadow :0px 2px 2px #888;
+}
+.app:hover{
+transform: scale(1.05);
+}
+.appname{
+font-size: 1.5em;
+margin: 1px;
+color: #00cd45;
+}
+.appbrief{
+font-size: 1em;
+margin: 1px;
+color: #ff5722;
+}
+.app_screenshots{
+width:100%;
+white-space: nowrap;
+overflow-x: auto;
+}
+.app_screenshots img{
+display: inline;
+width:30%;
+min-width:150px;
+}
+.appicon{
+float: left;
+vertical-align: text-top;
+width: 20%;
+max-width: 110px;
+}
+.app_name_and_brief{
+float: left;
+width: 78%;
+}
+.appicon img{
+width: 100%;
+height: 100%;
+max-width: 150px;
+max-height: 150px;
+min-width: 75px;
+min-height: 75px;
+}
+.app_description{
+column-count: 2;
+}
+.app_feature{
+	vertical-align: text-top;
+	display: inline-block;
+	width: 20%;
+	margin: 0.5%;
+	padding: 0.25%;
+	min-width: 75px;
+	max-width: 150px;
+	text-align: center;
+}
+
+#sidebar_educational{
+width: 100%;
+}
+#sidebar_dailylife{
+width: 100%;
+}
+.apps_category{
+display:block;
+width:100%;
+}
+.heading{
+font: 2em;
+color: #00cd45;
+}
+.subheading{
+font: 2em;
+color: #ff5722;
+}
+.main_link,.main_link_download{
+text-decoration: none;
+font: 3em;
+background-color: #b01c20;
+color: white;
+padding: 10px;
+background: #00cd45;
+margin-top: 30px;
+
+border :1px solid #777;
+border-radius :5px;
+-moz-box-shadow :2px 2px 2px #888;
+-webkit-box-shadow:2px 2px 2px #888;
+box-shadow :2px 2px 2px #888;
+}
+.main_link_download{
+float:right;
+}
+.main_link_download img{
+	vertical-align: middle;
+}
+.main_link:hover,.main_link_download:hover{
+transform: scale(1.1);
+}
+.links{
+	display: inline-block;
+	vertical-align: text-top;
+	margin: auto;
+	color: #ffffff;
+}
+.links a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.links a:hover,#contact_links a:hover,#contact_dev_links a:hover{
+	color: #00cd45;
+}
+.links a:visited,#contact_links a:visited,#contact_dev_links a:visited{
+	color: #ddaa00;
+}
+.links img:hover{
+transform: scale(1.2);
+}
+.feature{
+	vertical-align: text-top;
+	display: inline-block;
+	width: 29%;
+	margin: 1%;
+	padding: 0.5%;
+	min-width: 250px;
+	text-align: center;
+	border :1px solid #777;
+	border-radius :5px;
+	-moz-box-shadow :0px 2px 2px #888;
+	-webkit-box-shadow:0px 2px 2px #888;
+	box-shadow :0px 2px 2px #888;
+}
+.feature_brief:hover{
+transform: scale(1.2);
+}
+.feature_brief{
+	padding: 10px;
+}
+.feature_brief span{
+	color:#ff5722;
+	font-size: 1.5em;
+}
+.feature p,.app_feature p{
+	vertical-align: text-top;
+	margin: 0px;
+}
+.feature img,.app_feature img{
+	margin:10px;
+	vertical-align: middle;
+}
+
+
+
+footer ul,#sitename ul,#contact_links ul,#contact_dev_links ul,#contact_dev ul,.theme_select ul,.app_name_and_brief ul{
+	list-style: none;
+}
+#contact_dev_links img,#contact_links img{
+	margin-right: 8px;
+	vertical-align: middle;
+}
+#contact_site #sitename{
+	vertical-align: text-top;
+}
+.link_heading{
+font-size: 1.5em;
+font-weight: bold;
+}
+.link_devname{
+font-size: 1.5em;
+}
+.link_devtag{
+font-size: 0.7em;
+}
+#contact_dev .link_devname,#contact_links .link_devname{
+font-size: 1.8em;
+color: #ff5722;
+}
+.contact_icon{
+width: 30px;
+height: 30px;
+margin: 3px;
+}
+
+.theme_select{
+text-align:right;
+width:100%;
+}
+.theme_select ul li{
+display: inline-block;
+font-size: 1.2em;
+margin: 5px;
+text-align: center;
+}
+.theme_select a{
+padding :4px 6px;
+border :1px solid #777;
+border-radius :5px;
+-moz-box-shadow :2px 2px 2px #888;
+-webkit-box-shadow:2px 2px 2px #888;
+box-shadow :2px 2px 2px #888;
+}
+.light_button{
+background:#f5f5f5;
+color:#333333;
+}
+.dark_button{
+background:#333333;
+color:#f5f5f5;
+}
+
+
+@media screen and (max-width: 768px) {
+	#logo,#dev_image{
+	float: center;
+	width: 100%;
+	max-width: 100%;
+	}
+	#sitename{
+	text-align: center;
+	width: 100%;
+	}
+	#contact_dev{
+	width: 100%;
+	}
+	nav {
+	margin-left: -15px;
+	text-align: center;
+	}
+	nav ul li a {
+	line-height: 1.5em;
+	text-align: center;
+	}
+	#content {
+	margin-top: 20px;
+	padding-right: 1%;
+	padding-left: 1%;
+	width: 96%;
+	}
+	aside {
+	float: left;
+	margin: 0px;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-top: 25px;
+	width: 98%;
+	}
+	.app_description{
+	column-count: 1;
+	}
+
+}
